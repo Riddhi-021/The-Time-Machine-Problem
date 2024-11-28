@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+seaborn
+kagglehub
+huggingface_hub
+datasets
