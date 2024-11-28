@@ -21,7 +21,7 @@ def main():
     # extract_random_papers()
     
     # Extract American Stories
-    extract_american_stories()
+    # extract_american_stories()
 
 if __name__ == "__main__":
     main()
