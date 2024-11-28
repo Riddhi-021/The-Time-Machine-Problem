@@ -24,7 +24,7 @@ To run the project, execute the following command:
 python main.py
 ``` 
 
-If you want to run the arXiv and American Stories data and visualizations, you can do so by uncommenting the relevant lines in `main.py`.
+By default, you will see the randomly selected American stories and arXiv papers, and their visualizations from my runs. If you want to run the arXiv and American Stories data and visualizations, you can do so by uncommenting the relevant lines in `main.py`.
 
 For the arXiv data, you need to download the [arXiv dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv/data) and save it in the `datasets/arxiv` folder before running the project.
 
@@ -40,5 +40,6 @@ mac/linux:
 export HUGGINGFACE_TOKEN=<your_token>
 ```
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Contributing
+
+For any changes, PLEASE CREATE A NEW BRANCH AND OPEN A NEW PULL REQUEST. DO NOT PUSH TO THE MAIN BRANCH.
