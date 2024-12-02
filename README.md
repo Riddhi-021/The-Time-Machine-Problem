@@ -1,21 +1,24 @@
 # The Time Machine Problem
 
 ## Project Overview
-This project analyzes historical text data across different time periods. It utilizes datasets from arXiv papers and American stories to visualize and understand trends over time.
+This project analyzes historical text data across different time periods. It utilizes datasets from arXiv papers (post-1900), British Library Books (1500-1900), and American stories to visualize and understand trends over time.
 
 ## Project Structure
 - `data_processors/`: Contains modules for processing different datasets.
   - `americanstories/`: Processes American stories from various periods.
-    - `americanstories.py`: Processes American stories from various periods from [American Stories](https://huggingface.co/datasets/dell-research-harvard/AmericanStories).
-    - `selected_stories/`: Contains randomly selected American stories from the `americanstories.py` output.
+    - `americanstories.py`: Processes American stories from [American Stories](https://huggingface.co/datasets/dell-research-harvard/AmericanStories).
+    - `selected_stories/`: Contains randomly selected American stories output.
   - `arxiv/`: Processes academic papers from the arXiv repository.
-    - `arxiv.py`: Processes academic papers from the arXiv repository from [arXiv](https://www.kaggle.com/datasets/Cornell-University/arxiv/data).
-    - `selected_papers/`: Contains randomly selected arXiv papers from the `arxiv.py` output.
+    - `arxiv.py`: Processes academic papers from [arXiv](https://www.kaggle.com/datasets/Cornell-University/arxiv/data).
+    - `selected_papers/`: Contains randomly selected arXiv papers output.
+  - `britishlib/`: Processes historical books from British Library.
+    - `british.py`: Processes books from [British Library Books](https://huggingface.co/datasets/TheBritishLibrary/blbooks).
+    - `selected_british_books/`: Yet to run!
 - `main.py`: The main script to run analyses.
 
 ## Setup
 To set up the project, you need to install the required Python packages:
-```
+```bash
 pip install -r requirements.txt
 ```
 ## Running the Project
