@@ -7,6 +7,7 @@ sys.path.append(project_root)
 
 from data_processors.arxiv.arxiv import visualize_arxiv_data, extract_random_papers
 from data_processors.americanstories.americanstories import extract_american_stories
+from data_processors.britishlib.british import extract_british_books
 import logging
 
 def main():
@@ -16,12 +17,13 @@ def main():
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
     
-    # Comment out arxiv processing as it's already done
+    # Comment out completed processing
     # visualize_arxiv_data()
     # extract_random_papers()
-    
-    # Extract American Stories
     # extract_american_stories()
+    
+    # Process British Library Books
+    extract_british_books()
 
 if __name__ == "__main__":
     main()
